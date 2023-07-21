@@ -1,8 +1,13 @@
-# React + Vite
+# Proyecto de Frontend - Team de TH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue desarrollado por el equipo de Frontend de TH.
 
-Currently, two official plugins are available:
+## Miembros del Equipo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- [Nombre del Miembro 1](enlace_linkedin_miembro_1) [<img src="icono_linkedin.png" height="20" alt="LinkedIn">](enlace_linkedin_miembro_1)
+- [Nombre del Miembro 2](enlace_linkedin_miembro_2) [<img src="icono_linkedin.png" height="20" alt="LinkedIn">](enlace_linkedin_miembro_2)
+- [Cristian Espejel Iglesias](tu_enlace_linkedin) [<img src="icono_linkedin.png" height="20" alt="LinkedIn">](https://www.linkedin.com/in/cristianespe/)
+
+
+
