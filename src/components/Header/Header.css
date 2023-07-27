@@ -1,0 +1,35 @@
+/* Estilos para el header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #1D1856, #5A4995);
+    color: #fff;
+    padding: 1rem;
+    height: 50px;
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para el menú de navegación */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
