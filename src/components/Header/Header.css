@@ -7,13 +7,14 @@
     color: #fff;
     padding: 1rem;
     height: 50px;
+    width: 100%;
   }
   
   /* Estilos para el logo */
-  .logo {
-    font-size: 1.5rem;
+ 
+  .logo-Th{
+    width: 60px;
   }
-  
   /* Estilos para el menú de navegación */
   .nav-links {
     list-style: none;
