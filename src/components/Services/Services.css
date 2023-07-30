@@ -1,26 +1,116 @@
 :root {
-  --uno: #151e6b;
-  --dos: #0000;
-  --tres: #eeeded;
+  --background: #fafafa;
+  --title: #1d1856;
+  --paragraph: #252525;
+  --box: #efeaed;
 }
 
-main {
-  margin: 3rem;
+body {
+  background-color: var(--background);
+  width: 60rem;
+  height: 4607px;
+  padding: 4rem;
+}
+
+svg {
+  position: relative;
+  top: -2.2rem;
+  left: 24.3rem;
 }
 
 h2 {
-  color: var(--uno);
-  width: 20rem;
+  width: 30rem;
+  height: 5rem;
+  margin: 0rem;
+  color: var(--title);
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
 }
 
-.service {
-  background-color: var(--tres);
-  width: 25rem;
-  height: 7rem;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 5px;
+h4 {
+  width: 21rem;
+  height: 2rem;
+  margin-right: 3rem;
+  color: var(--paragraph);
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 0.91px;
+  position: relative;
+  top: -2.8rem;
+  left: 7.4rem;
+}
+
+p {
+  width: 19.2rem;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+  left: 7.4rem;
+  top: -3.2rem;
+}
+
+section {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.disign {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 29rem;
+  height: 11rem;
+  border-radius: 7px;
+  background: var(--box);
+}
+
+.opti {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 1rem;
+  width: 29rem;
+  height: 11rem;
+  border-radius: 7px;
+  background: var(--box);
+}
+
+.solutions {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 29rem;
+  height: 11rem;
+  border-radius: 7px;
+  background: var(--box);
+}
+
+.users {
+  width: 29rem;
+  height: 11rem;
+  border-radius: 7px;
+  background: var(--box);
+}
+
+.icons {
+  width: 1.7rem;
+  height: 1.7rem;
+  position: relative;
+  top: 1rem;
+  left: -1rem;
+}
+
+.vector {
+  width: 4rem;
+  height: 3.5rem;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
 }
