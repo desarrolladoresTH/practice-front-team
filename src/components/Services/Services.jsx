@@ -74,7 +74,7 @@ const Services = () => {
         </defs>
       </svg>
       <section>
-        <div className="disign">
+        <div className="design">
           <img className="vector" src={Vector12.png} alt="" />
           <img className="icons" src={wand1.png} alt="wand" />
           <h4>Diseño de productos y servicios</h4>
