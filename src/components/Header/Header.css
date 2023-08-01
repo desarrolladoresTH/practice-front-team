@@ -11,9 +11,14 @@
   }
   
   /* Estilos para el logo */
- 
+ .logo{
+  padding-left: 80px;
+ }
   .logo-Th{
     width: 60px;
+  }
+  .nav{
+    padding-right: 80px;
   }
   /* Estilos para el menú de navegación */
   .nav-links {

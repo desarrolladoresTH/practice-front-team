@@ -5,12 +5,7 @@
   --box: #efeaed;
 }
 
-body {
-  background-color: var(--background);
-  width: 60rem;
-  height: 30rem;
-  padding: 4rem;
-}
+
 
 svg {
   position: relative;
