@@ -1,10 +1,10 @@
 import React from 'react'
-import Services from '../components/Services/Services'
+import Servicios from '../components/Servicios/Services'
 
 const Home = () => {
     return (
         <>
-        <Services/>
+        <Servicios/>
         </>
     );
 }
