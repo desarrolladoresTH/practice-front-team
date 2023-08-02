@@ -5,14 +5,15 @@
   --box: #efeaed;
 }
 
-main {
+.services {
   background-color: var(--background);
-  width: 68.5rem;
+  width: 80rem;
   height: 30rem;
-  padding: 4rem;
+  padding: 8rem;
+  box-sizing: border-box;
 }
 
-svg {
+.svg {
   position: relative;
   top: -2.2rem;
   left: 24.3rem;
@@ -49,19 +50,20 @@ h4 {
 p {
   width: 19.2rem;
   font-family: sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1rem;
+  text-justify: auto;
   position: relative;
   left: 7.4rem;
-  top: -3.2rem;
+  top: -4rem;
 }
 
-section {
+.description {
   display: flex;
   flex-wrap: wrap;
 }
 
-.disign {
+.design {
   margin-top: 0rem;
   margin-bottom: 1rem;
   margin-right: 1rem;

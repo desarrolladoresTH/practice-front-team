@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       {/* Menú de navegación */}
-      <nav>
+      <nav className='nav'>
         <ul className="nav-links">
           <li><a href="#equipo">Equipo</a></li>
           <li><a href="#servicios">Servicios</a></li>

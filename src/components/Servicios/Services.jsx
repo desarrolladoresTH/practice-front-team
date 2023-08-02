@@ -1,18 +1,18 @@
 import React from 'react';
 import Vector12 from '../../assets/Vector12.png'
 import wand1 from '../../assets/wand1.png'
-import clock1 from '../../assets/clock1.png'
+import clock1 from '../../assets/clock.png'
 import user1 from '../../assets/user1.png'
 import name1 from '../../assets/name1.png'
 import './Services.css'
 
 const Services = () => {
   return (
-    <>
-    <main>
+    
+    <main className='services'>
       <h2>Nuestros sevicios para potenciar tu payme</h2>
-      <section>
-        <div className="disign">
+      <div className='description'>
+        <div className="design">
           <img className="vector" src={Vector12} alt="" />
           <img className="icons" src={wand1} alt="wand" />
           <h4>Diseño de productos y servicios</h4>
@@ -48,9 +48,9 @@ const Services = () => {
             rendimiento, enfocándonos en tu usuario y tu Pyme.
           </p>
         </div>
-      </section>
+      </div>
     </main>
-    </>
+    
   );
 }
 
