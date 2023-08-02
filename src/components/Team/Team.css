@@ -1,0 +1,113 @@
+div.team{
+    background-color: transparent;
+    display: flex;
+    margin-left: 120px;
+    width: 1100px;
+
+}
+
+div.text{
+    width: 40%;
+}
+div.title{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #1D1856;
+}
+
+div.content {
+    margin-left: 20px;
+    line-height: 30px;
+    padding-right: 50px;
+    text-align: justify;
+    padding-bottom: 180px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+div.teaminf{
+    width: 55%;
+    display: inline-flex;
+}
+
+div.member1{
+    margin-left: 25px;
+    padding-left: 5px;
+    display: block;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    width: 150px;
+    height: 250px;
+    transform: translate(0px, 100px);
+}
+
+div.member1 span.name{
+    padding-left: 15px;
+}
+
+div.member1 span.wrk{
+    padding-left: 40px;
+}
+
+div.member1 img.linkdln{
+    padding-left: 55px;
+    transition: all 1s;
+}
+
+img.linkdln:hover {
+    opacity: 50%;
+    cursor: pointer;
+
+}
+
+div.member2{
+    margin-left: 25px;
+    padding-left: 5px;
+    display: block;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    width: 150px;
+    height: 250px;
+    transform: translate(0px, 160px);
+}
+
+div.member2 span.name{
+    padding-left: 25px;
+}
+
+div.member2 span.wrk{
+    padding-left: 40px;
+}
+
+div.member2 img.linkdln{
+    padding-left: 55px;
+    transition: all 1s
+}
+
+div.member3{
+    margin-left: 25px;
+    padding-left: 5px;
+    display: block;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    width: 150px;
+    height: 250px;
+    transform: translate(0px, 220px);
+}
+
+div.member3 span.name{
+    padding-left: 35px;
+}
+
+div.member3 span.wrk{
+    padding-left: 45px;
+}
+
+div.member3 img.linkdln{
+    padding-left: 55px;
+    transition: all 1s
+}

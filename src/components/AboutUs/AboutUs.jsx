@@ -24,9 +24,9 @@ const AboutUs = () =>{
                     </div>
                 </div>
                 <div className="img">
-                    <img height={340} width={360} src="src/assets/28480869_Tiny graphic designer drawing with big pen on computer screen 1 (2).png" alt="" />
+                    <img height={470} width={490} src="src/assets/28480869_Tiny graphic designer drawing with big pen on computer screen 1 (2).png" alt="" />
                 </div>
-                <img id="Deco" height={200} width={400} src="src/assets/Group 53.png" alt="" />
+                <img id="Deco" height={300} width={600} src="src/assets/Group 53.png" alt="" />
             </section>
         </div>
         </>
