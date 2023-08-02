@@ -1,9 +1,9 @@
 import React from 'react';
-import Vector12 from '../../assets'
-import wand1 from '../../assets'
-import clock1 from '../../assets'
-import user1 from '../../assets'
-import name1 from '../../assets'
+import Vector12 from '../../assets/Vector12.png'
+import wand1 from '../../assets/wand1.png'
+import clock1 from '../../assets/clock.png'
+import user1 from '../../assets/user1.png'
+import name1 from '../../assets/name1.png'
 import './Services.css'
 
 const Services = () => {
@@ -75,8 +75,8 @@ const Services = () => {
       </svg>
       <section>
         <div className="design">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={wand1.png} alt="wand" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={wand1} alt="wand" />
           <h4>Diseño de productos y servicios</h4>
           <p>
             Diseñamos páginas web y aplicaciones móviles para que puedas dar el
@@ -84,8 +84,8 @@ const Services = () => {
           </p>
         </div>
         <div className="opti">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={wall-clock1.png} alt="clock" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={clock1} alt="clock" />
           <h4>Optimización de canales digitales</h4>
           <p>
             Definimos indicadores y medimos el rendimiento de los flujos de
@@ -93,8 +93,8 @@ const Services = () => {
           </p>
         </div>
         <div className="solutions">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={user1.png} alt="user" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={user1} alt="user" />
           <h4>Soluciones digitales a medida</h4>
           <p>
             Diseñamos soluciones digitales alineando los objetivos de tu Pyme y
@@ -102,8 +102,8 @@ const Services = () => {
           </p>
         </div>
         <div className="users">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={name1.png} alt="name" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={name1} alt="name" />
           <h4>Enfoque en los usuarios</h4>
           <p>
             Implementamos e integramos tecnologías escakables de alto

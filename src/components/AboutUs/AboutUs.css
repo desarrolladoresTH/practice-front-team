@@ -1,0 +1,80 @@
+
+div.abtus{
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 0px;
+    width: 987px;
+}
+div.img{
+    align-self: center;
+    width:400px;
+}
+
+h1#Ffam{
+    color: #1D1856;
+    vertical-align: baseline;
+    margin-top: 50px;
+    word-spacing: 12px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+
+h1#Ffam span{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 234) ;
+    text-decoration-thickness: 7px;
+}
+
+div.txt{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: 7px;
+    padding-left: 20px;
+    width: 550px;
+}
+
+div.description{
+    margin-left: 50px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+span#th{
+    font-weight: 200;
+    font-size: 19px;
+    text-align: justify;
+}
+
+div.abtsbutton{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+}
+div.contusb:hover span{
+    cursor: pointer;
+    opacity: 50%;
+}
+span#cont{
+    color: white;
+    background-color: rgb(15, 2, 87);
+    border-radius: 5px;
+    margin-right:10px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 1s;
+}
+
+span#works a{
+    color: rgb(65, 65, 65);
+    opacity: 80%;
+}
+
+img#Deco{
+    transform: translate(585px,0px);
+}
+
+
