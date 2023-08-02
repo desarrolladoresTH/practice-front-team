@@ -9,9 +9,9 @@ import './Services.css'
 const Services = () => {
   return (
     
-    <main>
+    <main className='services'>
       <h2>Nuestros sevicios para potenciar tu payme</h2>
-      <section>
+      <div className='description'>
         <div className="design">
           <img className="vector" src={Vector12} alt="" />
           <img className="icons" src={wand1} alt="wand" />
@@ -22,8 +22,8 @@ const Services = () => {
           </p>
         </div>
         <div className="opti">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={clock1.png} alt="clock" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={clock1} alt="clock" />
           <h4>Optimización de canales digitales</h4>
           <p>
             Definimos indicadores y medimos el rendimiento de los flujos de
@@ -31,8 +31,8 @@ const Services = () => {
           </p>
         </div>
         <div className="solutions">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={user1.png} alt="user" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={user1} alt="user" />
           <h4>Soluciones digitales a medida</h4>
           <p>
             Diseñamos soluciones digitales alineando los objetivos de tu Pyme y
@@ -40,15 +40,15 @@ const Services = () => {
           </p>
         </div>
         <div className="users">
-          <img className="vector" src={Vector12.png} alt="" />
-          <img className="icons" src={name1.png} alt="name" />
+          <img className="vector" src={Vector12} alt="" />
+          <img className="icons" src={name1} alt="name" />
           <h4>Enfoque en los usuarios</h4>
           <p>
             Implementamos e integramos tecnologías escakables de alto
             rendimiento, enfocándonos en tu usuario y tu Pyme.
           </p>
         </div>
-      </section>
+      </div>
     </main>
     
   );
