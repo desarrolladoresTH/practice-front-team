@@ -14,7 +14,7 @@ const Team = () =>{
             </div>
             <div className="teaminf">
                <div className="member1">
-                    <img height={160} width={150} src="src/assets/Temporal icon.png" alt="" />
+                    <img height={160} width={150} src="src/assets/Temporal-icon.png" alt="" />
                     <span className="name"><b>Cristian Espejel</b></span>
                     <br />
                     <span className="wrk">Developer</span>
@@ -22,7 +22,7 @@ const Team = () =>{
                     <a href="https://mx.linkedin.com/"><img className="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
                </div>
                <div className="member2">
-                    <img height={160} width={150} src="src/assets/Temporal icon.png" alt="" />
+                    <img height={160} width={150} src="src/assets/Temporal-icon.png" alt="" />
                     <span className="name"><b>Pao Zamudio</b></span>
                     <br />
                     <span className="wrk">Developer</span>
