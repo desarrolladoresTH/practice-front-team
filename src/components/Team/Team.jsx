@@ -14,28 +14,28 @@ const Team = () =>{
             </div>
             <div className="teaminf">
                <div className="member1">
-                    <img height={160} width={150} src="src/assets/Temporal-icon.png" alt="" />
-                    <span class="name"><b>Cristian Espejel</b></span>
+                    <img height={160} width={150} src="src/assets/Temporal icon.png" alt="" />
+                    <span className="name"><b>Cristian Espejel</b></span>
                     <br />
-                    <span class="wrk">Developer</span>
+                    <span className="wrk">Developer</span>
                     <br />
-                    <a href="https://mx.linkedin.com/"><img class="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
+                    <a href="https://mx.linkedin.com/"><img className="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
                </div>
                <div className="member2">
-                    <img height={160} width={150} src="src/assets/Temporal-icon.png" alt="" />
-                    <span class="name"><b>Pao Zamudillo</b></span>
+                    <img height={160} width={150} src="src/assets/Temporal icon.png" alt="" />
+                    <span className="name"><b>Pao Zamudio</b></span>
                     <br />
-                    <span class="wrk">Developer</span>
+                    <span className="wrk">Developer</span>
                     <br />
-                    <a href="https://mx.linkedin.com/"><img class="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
+                    <a href="https://mx.linkedin.com/"><img className="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
                </div>
                <div className="member3">
                     <img height={160} width={150} src="src/assets/Aram.png" alt="" />
-                    <span class="name"><b>Aram Maya</b></span>
+                    <span className="name"><b>Aram Maya</b></span>
                     <br />
-                    <span class="wrk">Student</span>
+                    <span className="wrk">Student</span>
                     <br />
-                    <a href="https://mx.linkedin.com/"><img class="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
+                    <a href="https://mx.linkedin.com/"><img className="linkdln" height={40} width={40} src="src/assets/icono_linkedin.png" alt="" /></a>
                </div>
             </div>
         </div>
