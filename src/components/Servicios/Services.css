@@ -1,32 +1,31 @@
 :root {
-  --background: #fafafa;
   --title: #1d1856;
   --paragraph: #252525;
   --box: #efeaed;
 }
 
 .services {
-  background-color: var(--background);
-  width: 80rem;
-  height: 30rem;
-  padding: 8rem;
-  box-sizing: border-box;
+  width: 100%;
 }
 
-.svg {
+.title-icon {
+  height: 2rem;
+  width: 3rem;
   position: relative;
-  top: -2.2rem;
-  left: 24.3rem;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.title-services {
+  font-family: sans-serif;
 }
 
 h2 {
   width: 30rem;
-  height: 5rem;
   margin-bottom: 3rem;
   color: var(--title);
   font-family: sans-serif;
   font-size: 2.3rem;
-  font-style: normal;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
@@ -38,7 +37,6 @@ h4 {
   color: var(--paragraph);
   font-family: sans-serif;
   font-size: 1.1rem;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.5rem;
   letter-spacing: 0.91px;
@@ -58,7 +56,7 @@ p {
   top: -4rem;
 }
 
-.description {
+.description-services {
   display: flex;
   flex-wrap: wrap;
 }
@@ -95,18 +93,22 @@ p {
 }
 
 .users {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 1rem;
   width: 29rem;
   height: 11rem;
   border-radius: 7px;
   background: var(--box);
 }
 
-.icons {
+.icons-services {
   width: 1.7rem;
   height: 1.7rem;
   position: relative;
-  top: 1rem;
-  left: -0.9rem;
+  top: 1.1rem;
+  left: -0.8rem;
 }
 
 .vector {
