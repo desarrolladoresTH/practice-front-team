@@ -1,10 +1,14 @@
 import React from 'react'
-import Servicios from '../components/Servicios/Services'
+import Services from '../components/Servicios/Services'
+import AboutUs from '../components/AboutUs/AboutUs'
+import Team from '../components/Team/Team'
 
 const Home = () => {
     return (
         <>
-        <Servicios/>
+        <AboutUs/>
+        <Team/>
+        <Services/>
         </>
     );
 }
