@@ -11,6 +11,8 @@ div.img{
 }
 
 h1#Ffam{
+    position: relative;
+    z-index: 0;
     color: #1D1856;
     vertical-align: baseline;
     margin-top: 50px;
@@ -20,11 +22,12 @@ h1#Ffam{
     font-size: 65px;
 }
 
-h1#Ffam span{
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 0, 234) ;
-    text-decoration-thickness: 7px;
+img#Underline{
+    z-index: 1;
+    transform: translate(150px,-170px);
+    position: absolute; 
 }
+
 
 div.txt{
     display: inline-block;
