@@ -4,17 +4,20 @@ import wand1 from '../../assets/wand1.png'
 import clock1 from '../../assets/clock.png'
 import user1 from '../../assets/user1.png'
 import name1 from '../../assets/name1.png'
+import Frame65 from '../../assets/Frame65.png'
 import './Services.css'
 
 const Services = () => {
   return (
     
-    <main className='services'>
-      <h2>Nuestros sevicios para potenciar tu payme</h2>
-      <div className='description'>
+    <section className='services'>
+      <div className='title-services'>
+        <h2>Nuestros sevicios para potenciar tu payme <img className='title-icon' src="src/assets/Frame65.png" alt="" /></h2>
+      </div>
+      <div className='description-services'>
         <div className="design">
           <img className="vector" src={Vector12} alt="" />
-          <img className="icons" src={wand1} alt="wand" />
+          <img className="icons-services" src={wand1} alt="wand" />
           <h4>Diseño de productos y servicios</h4>
           <p>
             Diseñamos páginas web y aplicaciones móviles para que puedas dar el
@@ -23,7 +26,7 @@ const Services = () => {
         </div>
         <div className="opti">
           <img className="vector" src={Vector12} alt="" />
-          <img className="icons" src={clock1} alt="clock" />
+          <img className="icons-services" src={clock1} alt="clock" />
           <h4>Optimización de canales digitales</h4>
           <p>
             Definimos indicadores y medimos el rendimiento de los flujos de
@@ -32,7 +35,7 @@ const Services = () => {
         </div>
         <div className="solutions">
           <img className="vector" src={Vector12} alt="" />
-          <img className="icons" src={user1} alt="user" />
+          <img className="icons-services" src={user1} alt="user" />
           <h4>Soluciones digitales a medida</h4>
           <p>
             Diseñamos soluciones digitales alineando los objetivos de tu Pyme y
@@ -41,15 +44,16 @@ const Services = () => {
         </div>
         <div className="users">
           <img className="vector" src={Vector12} alt="" />
-          <img className="icons" src={name1} alt="name" />
+          <img className="icons-services" src={name1} alt="name" />
           <h4>Enfoque en los usuarios</h4>
           <p>
-            Implementamos e integramos tecnologías escakables de alto
+            Implementamos e integramos tecnologías escalables de alto
             rendimiento, enfocándonos en tu usuario y tu Pyme.
           </p>
         </div>
       </div>
-    </main>
+    </section>
+    
     
   );
 }
