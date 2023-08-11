@@ -6,6 +6,8 @@
 
 .services {
   width: 100%;
+  align-items: center;
+  margin-left: 130px;
 }
 
 .title-icon {

@@ -1,9 +1,8 @@
-
 body {
-    margin: 0; /* Elimina el margen del cuerpo */
-    padding: 0; /* Opcionalmente, puedes eliminar el relleno también */
-  }
-  body, html {
-    overflow-x: hidden; /* Evita el desbordamiento horizontal */
-  }
-  
+  margin: 0; /* Elimina el margen del cuerpo */
+  padding: 0; /* Opcionalmente, puedes eliminar el relleno también */
+}
+body,
+html {
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}

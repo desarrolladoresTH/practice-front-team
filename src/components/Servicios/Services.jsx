@@ -10,7 +10,7 @@ import './Services.css'
 const Services = () => {
   return (
     
-    <div className='services'>
+    <section className='services'>
       <div className='title-services'>
         <h2>Nuestros sevicios para potenciar tu payme <img className='title-icon' src="src/assets/Frame65.png" alt="" /></h2>
       </div>
@@ -47,12 +47,13 @@ const Services = () => {
           <img className="icons-services" src={name1} alt="name" />
           <h4>Enfoque en los usuarios</h4>
           <p>
-            Implementamos e integramos tecnologías escakables de alto
+            Implementamos e integramos tecnologías escalables de alto
             rendimiento, enfocándonos en tu usuario y tu Pyme.
           </p>
         </div>
       </div>
-    </div>
+    </section>
+    
     
   );
 }
