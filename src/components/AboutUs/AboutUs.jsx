@@ -9,6 +9,7 @@ const AboutUs = () =>{
             <section>
                 <div className="txt">
                     <h1 id="Ffam">¡Tu <span>éxito</span> en linea <br /> es nuestra meta!</h1>
+                    <img height={60} width={150} id="Underline" src="src/assets/Subrayado.png" alt="" />
                     <div className="desc-content">
                         <span id="th">En TH Digital, sabemos que cada negocio es único, por lo que nos aseguramos de ofrecer soluciones de diseño web personalizadas y adaptadas a las necesidades específicas de cada cliente.</span>
                     </div>
